@@ -38,5 +38,9 @@
   "note": {
     "dataSource": "mongoDs",
     "public": true
+  },
+  "Client": {
+    "dataSource": "mongoDs",
+    "public": true
   }
 }

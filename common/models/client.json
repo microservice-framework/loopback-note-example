@@ -1,0 +1,19 @@
+{
+  "name": "Client",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "notes": {
+      "type": "hasAndBelongsToMany",
+      "model": "note",
+      "foreignKey": ""
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
